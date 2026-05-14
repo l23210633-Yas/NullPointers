@@ -54,10 +54,10 @@ para los integrantes del equipo y se asignaron permisos correspondientes para el
 - [x] Creación de usuarios de base de datos con permisos asignados
 - [x] Configuración de acceso local desde el servidor
 - [x] Creación inicial de tablas principales
-- [ ] Diseño completo de relaciones entre tablas
-- [ ] Inserción de datos de prueba (Seed Data)
-- [ ] Integración de la base de datos con PHP
-- [ ] Implementación de consultas dinámicas y pruebas del sistema
+- [x] Diseño completo de relaciones entre tablas
+- [x] Inserción de datos de prueba (Seed Data)
+- [x] Integración de la base de datos con PHP
+- [x] Implementación de consultas dinámicas y pruebas del sistema
 
 ---
 
