@@ -45,6 +45,18 @@ para los integrantes del equipo y se asignaron permisos correspondientes para el
 <img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/caa8ea12-110e-4e3b-a177-8ed1b7873336" />
 <img width="610" height="423" alt="image" src="https://github.com/user-attachments/assets/08b550e0-d66a-4161-8d88-c4a015e12321" />
 
+## 🗄️ Avances de la base de datos
 
+- [x] Instalación de MariaDB en la Raspberry Pi
+- [x] Creación de la base de datos del proyecto (marketplace)
+- [x] Creación de usuarios de base de datos con permisos asignados
+- [x] Configuración de acceso local desde el servidor
+- [ ] Diseño completo de tablas (usuarios, productos, pedidos, carrito)
+- [ ] Relación entre tablas (llaves primarias y foráneas)
+- [ ] Inserción de datos de prueba (seed data)
+- [ ] Integración de la base de datos con PHP
+
+📝 Descripción del avance:
+Se instaló y configuró MariaDB en la Raspberry Pi, creando la base de datos principal del marketplace. Además, se crearon usuarios con permisos específicos para el trabajo en equipo y se habilitó el acceso local desde el servidor. Actualmente se está en proceso de diseño de las tablas y estructura relacional.
 
 ---
