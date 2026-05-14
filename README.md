@@ -1,214 +1,297 @@
-# NullPointers
-# 🛒 Marketplace en Raspberry Pi 4 (Proyecto LAN)
-
-## 📌 Descripción del proyecto
-Este proyecto consiste en el desarrollo de un marketplace tipo Amazon que funciona en red local (LAN), utilizando una Raspberry Pi 4 como servidor principal.
-
-El sistema no depende de la nube, todo se ejecuta dentro del evento en una red local controlada.
+# 🛒 NullPointers  
+## Marketplace en Raspberry Pi 4 (Proyecto LAN)
 
 ---
 
-## ⚙️ Tecnologías utilizadas
+# 📌 Descripción del Proyecto
+
+Este proyecto consiste en el desarrollo de un marketplace tipo Amazon que funciona completamente en una red local (LAN), utilizando una Raspberry Pi 4 como servidor principal.
+
+El sistema está diseñado para operar sin depender de servicios en la nube, permitiendo que toda la plataforma funcione dentro de la red local del evento.
+
+---
+
+# ⚙️ Tecnologías Utilizadas
+
 - Raspberry Pi 4
 - Apache / Nginx
 - PHP
 - MariaDB
-- HTML, CSS, JavaScript
+- HTML5
+- CSS3
+- JavaScript
 
 ---
 
-## 🎯 Objetivo del sistema
+# 🎯 Objetivo del Sistema
+
 Desarrollar una plataforma básica de comercio electrónico que permita:
 
 - Registro e inicio de sesión de usuarios
 - Visualización de productos
 - Carrito de compras
 - Administración de productos
+- Gestión de pedidos
 - Base de datos local en MariaDB
 
 ---
 
-## 🚧 Estado del proyecto
+# 🚧 Estado del Proyecto
+
 🟡 En desarrollo
 
-### Avances actuales:
+---
+
+# ✅ Avances Actuales
+
 - [x] Instalación y configuración de Raspberry Pi
 - [x] Conexión a la Raspberry Pi establecida
 - [x] Creación de usuarios en el sistema
 - [x] Configuración inicial del sistema operativo
-- [x] Asignación de permisos a cada usuario del equipo
-
-📝 Descripción del avance:
-Se configuró correctamente la Raspberry Pi, estableciendo la conexión en red local. Además, se crearon usuarios 
-para los integrantes del equipo y se asignaron permisos correspondientes para el trabajo colaborativo dentro del sistema.
-
-<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/caa8ea12-110e-4e3b-a177-8ed1b7873336" />
-<img width="610" height="423" alt="image" src="https://github.com/user-attachments/assets/08b550e0-d66a-4161-8d88-c4a015e12321" />
-
-# 🛒 Proyecto Marketplace — Avances del Sistema
-
-## 🗄️ Avances de la Base de Datos
-
-- [x] Instalación de MariaDB en la Raspberry Pi
-- [x] Creación de la base de datos del proyecto (`marketplace`)
-- [x] Creación de usuarios de base de datos con permisos asignados
-- [x] Configuración de acceso local desde el servidor
-- [x] Creación inicial de tablas principales
-- [x] Diseño completo de relaciones entre tablas
-- [x] Inserción de datos de prueba (Seed Data)
-- [x] Integración de la base de datos con PHP
-- [x] Implementación de consultas dinámicas y pruebas del sistema
+- [x] Asignación de permisos a cada integrante
+- [x] Instalación y configuración de MariaDB
+- [x] Creación de la base de datos `marketplace`
+- [x] Integración de PHP con MariaDB
+- [x] Diseño inicial de tablas
+- [x] Diseño de páginas principales
+- [x] Creación del diseño visual del marketplace
 
 ---
 
-## 📝 Descripción del Avance
+# 📝 Descripción del Avance
 
-Se instaló y configuró MariaDB en la Raspberry Pi para comenzar el desarrollo de la base de datos del marketplace. Posteriormente, se creó la base de datos principal llamada `marketplace`, además de usuarios con permisos específicos para facilitar el trabajo en equipo y la administración del sistema.
+Se configuró correctamente la Raspberry Pi estableciendo la conexión en red local para permitir el funcionamiento del marketplace dentro del evento.
 
-También se configuró el acceso local desde el servidor para permitir la conexión entre la aplicación y la base de datos. Después de la configuración inicial, se comenzó el diseño de las tablas principales necesarias para el funcionamiento de una plataforma tipo Amazon o Mercado Libre.
+Además, se crearon usuarios para los integrantes del equipo y se asignaron permisos correspondientes para facilitar el trabajo colaborativo dentro del sistema.
 
-Actualmente, el proyecto se encuentra en proceso de desarrollo de la estructura relacional, conexiones entre tablas y pruebas de integración con PHP.
+Posteriormente, se instaló MariaDB y se desarrolló la estructura inicial de la base de datos del marketplace, incluyendo relaciones entre tablas, datos de prueba y conexión con PHP.
+
+Finalmente, se inició el desarrollo visual del sistema, diseñando las primeras interfaces del marketplace y organizando la experiencia de usuario.
+<img width="1600" height="1200" alt="592117167-caa8ea12-110e-4e3b-a177-8ed1b7873336" src="https://github.com/user-attachments/assets/ee8a4fd6-cb95-4167-976c-6322d6633053" />
+
+<img width="610" height="423" alt="592117270-08b550e0-d66a-4161-8d88-c4a015e12321" src="https://github.com/user-attachments/assets/39b8a577-b7be-431a-b889-9fadb3a8a501" />
+
+
 
 ---
 
-# 📦 Estructura Inicial de la Base de Datos
+# 👥 Integrantes del Equipo
+
+| Integrante | Responsabilidades |
+|---|---|
+| **Marcos** | Configuración de Raspberry Pi, instalación del servidor local, conexión entre PHP y MariaDB y configuración del backend. |
+| **Yasmin** | Configuración de Raspberry Pi, diseño de la base de datos, relaciones entre tablas, integración de páginas y apoyo en programación. |
+| **Dulce** | Desarrollo de páginas principales, integración de interfaces y programación visual del sistema. |
+| **Jesica** | Desarrollo del login, páginas de productos e integración de HTML, CSS y PHP. |
+| **Ariana** | Diseño visual completo de la interfaz del marketplace y organización estética de las páginas. |
+
+---
+
+# ⚙️ Distribución del Equipo
+
+## 🔧 Configuración de Raspberry Pi y Servidor
+### Marcos y Yasmin
+
+Se encargaron de:
+
+- Configuración inicial de la Raspberry Pi
+- Instalación del entorno del servidor
+- Configuración de Apache, PHP y MariaDB
+- Verificación de conexión dentro de la red local
+
+Gracias a esta configuración, el sistema puede funcionar completamente dentro de la LAN del evento.
+
+---
+
+## 🖥️ Desarrollo de Páginas Principales
+### Dulce y Jesica
+
+Responsables de:
+
+- Página de inicio de sesión (Login)
+- Página principal de productos
+- Organización inicial de navegación
+
+---
+
+## 🎨 Diseño de la Interfaz
+### Ariana
+
+Responsable de:
+
+- Diseño visual del marketplace
+- Organización de elementos gráficos
+- Estilo general del sistema
+- Base visual para programación
+
+---
+
+## 💻 Programación e Integración
+### Jesica, Dulce y Yasmin
+
+Trabajaron en:
+
+- Integración de HTML, CSS y PHP
+- Programación de interfaces
+- Adaptación del diseño al funcionamiento real del sistema
+
+---
+
+## 🗄️ Base de Datos y Backend
+
+### Marcos
+
+Responsable de:
+
+- Conexión entre PHP y MariaDB
+- Configuración del backend
+- Verificación del funcionamiento del sistema
+
+### Yasmin
+
+Responsable de:
+
+- Diseño del esquema de la base de datos
+- Organización de tablas
+- Relaciones entre entidades
+- Estructura de almacenamiento
+
+---
+
+# 🗄️ Estructura Inicial de la Base de Datos
+
 ## 📌 Tablas creadas
-
-<img width="440" height="380" alt="Captura de pantalla 2026-05-13 174302" src="https://github.com/user-attachments/assets/fb3f35e7-f1d8-4977-984d-d6bfbbce6cdf" />
+<img width="440" height="380" alt="592258453-fb3f35e7-f1d8-4977-984d-d6bfbbce6cdf" src="https://github.com/user-attachments/assets/b47f4f72-f95a-4790-a9e6-c6ab224666cb" />
 
 
 ### 👤 users
-Es el núcleo principal del sistema. Guarda la información de todos los usuarios registrados, incluyendo:
+Almacena la información de los usuarios registrados:
 - Nombre
 - Correo electrónico
 - Contraseña
-- Rol dentro del sistema (cliente o administrador)
+- Rol del usuario
 
 ---
 
 ### 🏪 sellers
-Almacena la información adicional de los vendedores, como:
-- Nombre de la tienda
+Información de vendedores:
+- Nombre de tienda
 - RFC
 - Dirección comercial
-- Datos relacionados con ventas
 
 ---
 
 ### 🛍️ products
-Contiene el catálogo de productos disponibles en la plataforma:
-- Nombre del producto
+Catálogo principal de productos:
+- Nombre
 - Descripción
 - Precio
-- Stock disponible
-- Información general del artículo
+- Stock
 
 ---
 
 ### 🗂️ categories
-Permite organizar los productos en categorías para facilitar la navegación y búsqueda:
+Organización de productos por categorías:
 - Electrónica
-- Ropa
-- Hogar
 - Tecnología
-- Entre otras
+- Hogar
+- Ropa
 
 ---
 
 ### 🖼️ product_images
-Guarda las imágenes de los productos mediante rutas o nombres de archivos.
+Gestión de imágenes de productos.
 
-Esta tabla se encuentra separada de `products` para permitir múltiples imágenes por producto.
+Permite almacenar múltiples imágenes por producto.
 
 ---
 
 ### 🛒 cart
-Representa el carrito de compras activo de cada usuario.
+Carrito de compras activo de cada usuario.
 
 ---
 
 ### 📦 cart_items
-Guarda los productos específicos agregados al carrito:
-- Producto seleccionado
+Productos agregados al carrito:
+- Producto
 - Cantidad
-- Relación con el carrito del usuario
+- Relación con carrito
 
 ---
 
 ### 📑 orders
-Registra el historial de compras realizadas:
-- Usuario comprador
-- Fecha de compra
-- Total pagado
+Historial de compras:
+- Usuario
+- Fecha
+- Total
 - Estado del pedido
 
 ---
 
 ### 📋 order_items
-Guarda el detalle exacto de cada pedido:
-- Productos comprados
-- Cantidades
-- Precio registrado al momento de la compra
+Detalle de productos comprados dentro de cada pedido.
 
 ---
 
 ### 💳 payments
-Almacena información relacionada con los pagos:
+Información relacionada con pagos:
 - Método de pago
-- Estado de la transacción
-- Confirmación o rechazo del pago
+- Estado de transacción
 
 ---
 
 ### 🚚 shipping
-Controla el estado de los envíos:
-- Preparando pedido
-- En camino
-- Entregado
+Control y seguimiento de envíos:
+- Estado del envío
 - Número de guía
 
 ---
 
 ### ⭐ reviews
-Permite a los compradores dejar:
-- Comentarios
-- Calificaciones
-- Opiniones sobre productos
+Opiniones y calificaciones de productos.
 
 ---
 
 ### ❤️ wishlist
-Guarda los productos favoritos o deseados por los usuarios para futuras compras.
+Lista de productos favoritos de los usuarios.
 
 ---
 
 ### 🔔 notifications
-Gestiona las notificaciones y avisos del sistema:
-- Actualizaciones de pedidos
-- Avisos importantes
-- Actividad relacionada con productos y usuarios
+Sistema de notificaciones y avisos.
 
 ---
 
 # 🎨 Avances del Diseño
 
-Después de finalizar la estructura inicial de la base de datos, se comenzó con el diseño de algunas páginas del sistema, enfocándose en:
-- Interfaz visual
-- Experiencia del usuario
-- Organización del catálogo
+Después de finalizar la estructura inicial de la base de datos, comenzó el desarrollo visual del marketplace, enfocándose en:
+
+- Interfaz moderna
+- Experiencia de usuario
 - Diseño responsive
-- Navegación del marketplace
+- Organización del catálogo
+- Navegación intuitiva
 
-El objetivo es desarrollar una plataforma moderna, funcional y similar a marketplaces como Amazon o Mercado Libre.
-
----
-
-## Avances adicionales
-
-Después de finalizar la estructura inicial de la base de datos, comenzamos con el diseño y desarrollo de algunas páginas del sistema, enfocándonos en la interfaz visual y la experiencia del usuario para el marketplace.
+El objetivo es desarrollar una plataforma funcional y visualmente similar a marketplaces como Amazon o Mercado Libre.
 
 ---
-## Logo para pagina
+
+# 🖼️ Logo del Proyecto
+
+## Logo oficial del marketplace
 
 <img width="558" height="321" alt="logoRR" src="https://github.com/user-attachments/assets/70cbd58b-4048-409f-b2b5-2f23bf4db6b3" />
 
+---
+
+# 🤝 Trabajo Colaborativo
+
+Todo el equipo participó en:
+
+- Diseño general del sistema
+- Organización del proyecto
+- Revisión de funcionalidades
+- Propuestas de mejora
+- Desarrollo visual y técnico
+
+Gracias al trabajo colaborativo, el proyecto logró una estructura organizada y funcional preparada para ejecutarse completamente desde una Raspberry Pi 4 dentro de una red local.
