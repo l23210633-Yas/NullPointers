@@ -60,3 +60,7 @@ para los integrantes del equipo y se asignaron permisos correspondientes para el
 Se instaló y configuró MariaDB en la Raspberry Pi, creando la base de datos principal del marketplace. Además, se crearon usuarios con permisos específicos para el trabajo en equipo y se habilitó el acceso local desde el servidor. Actualmente se está en proceso de diseño de las tablas y estructura relacional.
 
 ---
+## Logo para pagina
+
+<img width="558" height="321" alt="logoRR" src="https://github.com/user-attachments/assets/70cbd58b-4048-409f-b2b5-2f23bf4db6b3" />
+
